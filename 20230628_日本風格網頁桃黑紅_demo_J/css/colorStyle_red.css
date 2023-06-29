@@ -1,0 +1,223 @@
+html body .bannerBg {
+  background: url("../img/redStyle/banner_img.jpg") no-repeat;
+  background-size: cover;
+}
+
+html body .mainRole {
+  background: url("../img/redStyle/footer_role.png") no-repeat right;
+}
+
+html body main .leftArea {
+  background: rgba(95, 18, 31, 0.9450980392);
+}
+
+html body main .leftArea .topArea {
+  background: #4c0410;
+}
+
+html body main .leftArea .topArea form {
+  background: #330000;
+}
+
+html body main .leftArea .topArea form label input {
+  background: #ffffff;
+}
+html body main .leftArea .topArea form label input:focus {
+  background: #dedede;
+}
+html body main .leftArea .topArea form label input::-webkit-input-placeholder {
+  color: #6c6c6c;
+}
+html body main .leftArea .topArea form label input::-moz-placeholder {
+  color: #6c6c6c;
+}
+html body main .leftArea .topArea form label input:-ms-input-placeholder {
+  color: #6c6c6c;
+}
+html body main .leftArea .topArea form label input::-ms-input-placeholder {
+  color: #6c6c6c;
+}
+html body main .leftArea .topArea form label input::placeholder {
+  color: #6c6c6c;
+}
+
+html body main .leftArea .topArea form .loginBtn.ch {
+  background: #24e47e;
+  color: #ffffff;
+}
+html body main .leftArea .topArea form .loginBtn.jp {
+  background: #fcff00;
+}
+
+html body main .leftArea .topArea form .forget p {
+  color: #fcff00;
+}
+html body main .leftArea .topArea form .forget .questionIc {
+  border-color: #fcff00;
+}
+
+html body main .leftArea .infoSelect li {
+  background: #330000;
+  border-color: #ffffff;
+}
+html body main .leftArea .infoSelect li .arrow_ic {
+  border-color: #ffffff;
+}
+html body main .leftArea .infoSelect li:hover, html body main .leftArea .infoSelect li:active, html body main .leftArea .infoSelect li.active {
+  background: #330000;
+}
+html body main .leftArea .infoSelect li:hover .arrow_ic, html body main .leftArea .infoSelect li:active .arrow_ic, html body main .leftArea .infoSelect li.active .arrow_ic {
+  border-color: #ffffff;
+}
+html body main .leftArea .infoSelect li:hover p, html body main .leftArea .infoSelect li:active p, html body main .leftArea .infoSelect li.active p {
+  color: #0cedb0;
+}
+html body main .leftArea .infoSelect li p {
+  color: #ffffff;
+}
+
+html body main .rightArea .mainWrap .gameMenu {
+  background: #e81414;
+}
+html body main .rightArea .mainWrap .gameMenu li:hover, html body main .rightArea .mainWrap .gameMenu li:active, html body main .rightArea .mainWrap .gameMenu li.active {
+  background: #8b0d12;
+}
+html body main .rightArea .mainWrap .gameMenu li:hover p, html body main .rightArea .mainWrap .gameMenu li:active p, html body main .rightArea .mainWrap .gameMenu li.active p {
+  color: #fcff00;
+}
+html body main .rightArea .mainWrap .gameMenu li p {
+  color: #ffffff;
+}
+
+html body main .rightArea .mainWrap .daddyMenu {
+  background: #8b0d12;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic {
+  background: #ffffff;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic i {
+  border-color: #e81414;
+}
+
+html body main .rightArea .mainWrap .daddyMenu ul li div {
+  background: #330000;
+}
+
+html body main .rightArea .mainWrap .daddyMenu ul li p {
+  color: #ffffff;
+}
+
+html body main .rightArea .gridWrap .titleWrap {
+  background: #eaeaea;
+}
+
+html body main .rightArea .gridWrap .searchRow {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(232, 20, 20, 0.7254901961)), to(#e81414));
+  background: linear-gradient(to right, rgba(232, 20, 20, 0.7254901961) 0%, #e81414 100%);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5882352941) inset;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5882352941) inset;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive {
+  background: rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame {
+  background: #24e47e;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame p {
+  color: #ffffff;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.tryOutGame {
+  background: #fcff00;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive .maskInnerText {
+  color: #ffffff;
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e9e9e9), color-stop(53%, #f9f9f9), to(#ffffff));
+  background: linear-gradient(to top, #e9e9e9 0%, #f9f9f9 53%, #ffffff 100%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn .product_arrow_ic i {
+  border-color: #e81414;
+}
+
+html body main .rightArea .infoWrap .latestNews {
+  color: #ffffff;
+}
+
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev::before,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next::before {
+  border-color: #ff00a8 #ff00a8 transparent transparent;
+}
+
+html body main .rightArea footer {
+  background: #ffffff;
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc {
+  background: #e81414;
+  -webkit-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc p {
+  color: #ffffff;
+}
+
+html body main .rightArea footer .authorized {
+  background: #eaeaea;
+}
+
+html body main .rightArea footer .authorized p {
+  color: #000000;
+}
+
+html body main .rightArea aside.toTop {
+  background: #e81414;
+}
+
+html body main .rightArea aside.toTop p {
+  color: #ffffff;
+}
+
+html body main .rightArea aside.toTop p i {
+  border-color: #ffffff;
+}
+
+html body main .rightArea aside.language_chg {
+  background: #e81414;
+}
+
+html body main .rightArea aside.language_chg p {
+  color: #ffffff;
+}
+
+html body main .rightArea .mainRole {
+  top: 796px;
+}
+
+html body main .rightArea .mainWrap .gameMenu li:hover .games_ic {
+  background-position-y: -10%;
+}
+
+html body main .rightArea .mainWrap .gameMenu li:active .games_ic {
+  background-position-y: -10%;
+}
+
+html body main .rightArea .mainWrap .gameMenu li.active .games_ic {
+  background-position-y: -10%;
+}

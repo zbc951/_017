@@ -1,0 +1,1140 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select,
+input {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+main {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  display: block;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+html body main {
+  background: url("../img/public_bg.jpg") no-repeat center bottom;
+  background-size: cover;
+}
+
+main .leftArea .topArea form .forget i {
+  background: url("../img/qutions_icon.png") no-repeat center;
+  background-size: contain;
+}
+
+html body main .rightArea .mainWrap .gameMenu li .games_ic {
+  background: url("../img/games_icon.png") no-repeat top;
+  background-size: 600%;
+}
+
+html body main .rightArea .infoWrap .latestNews i {
+  background: url("../img/latestNews_icon.png") no-repeat center;
+  background-size: contain;
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc i {
+  background: url("../img/footer_pimk_cat.png") no-repeat center;
+  background-size: contain;
+}
+
+html body main .rightArea .serviceWrap .serviceIc2 {
+  background: url("../img/footer_logo.png") no-repeat center;
+  background-size: contain;
+}
+
+html body main .rightArea .gridWrap .searchRow i {
+  background: url("../img/search_ic.png") no-repeat center;
+  background-size: contain;
+}
+
+html body main .rightArea footer .authorized .footerIc {
+  background: url("../img/footer_black_cat.png") no-repeat center;
+  background-size: contain;
+}
+
+html body .language_chg i {
+  background: url("../img/language_icon.png") no-repeat center;
+  background-size: contain;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+html body .bannerBg {
+  width: 100%;
+  min-width: 1490px;
+  height: 488px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+html body .styleControl {
+  width: 150px;
+  height: auto;
+  min-height: 60px;
+  position: fixed;
+  top: 620px;
+  left: 0;
+  z-index: 999;
+}
+html body .styleControl .controlBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.5882352941);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+}
+html body .styleControl .controlBtn p {
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .styleControl .colorBtn {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+html body .styleControl .colorBtn li {
+  width: auto;
+  height: auto;
+}
+html body .styleControl .colorBtn li button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+html body .styleControl .colorBtn li button p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+html body .styleControl .colorBtn li button.pinkStyle {
+  background: #ff00a8;
+}
+html body .styleControl .colorBtn li button.blackStyle {
+  background: #000000;
+}
+html body .styleControl .colorBtn li button.redStyle {
+  background: #ff0000;
+}
+html body .styleControl .colorBtn.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body main {
+  width: 100%;
+  min-width: 1490px;
+  height: 100%;
+  min-height: 2746px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+html body main .leftArea {
+  width: 150px;
+  height: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  z-index: 9;
+  margin-right: 10px;
+}
+html body main .leftArea .topArea {
+  width: 100%;
+  height: 323px;
+}
+html body main .leftArea .topArea .logo {
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 36px 0 12px;
+  cursor: pointer;
+}
+html body main .leftArea .topArea .logo img {
+  width: 77px;
+  height: 29px;
+}
+html body main .leftArea .topArea form {
+  width: auto;
+  height: 244px;
+  padding: 10px 0 10px;
+}
+html body main .leftArea .topArea form label {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 6px;
+}
+html body main .leftArea .topArea form label input {
+  width: 137px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+html body main .leftArea .topArea form label input::-webkit-input-placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+html body main .leftArea .topArea form label input::-moz-placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+html body main .leftArea .topArea form label input:-ms-input-placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+html body main .leftArea .topArea form label input::-ms-input-placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+html body main .leftArea .topArea form label input::placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+html body main .leftArea .topArea form label input:focus::-webkit-input-placeholder {
+  scale: 1.1;
+}
+html body main .leftArea .topArea form label input:focus::-moz-placeholder {
+  scale: 1.1;
+}
+html body main .leftArea .topArea form label input:focus:-ms-input-placeholder {
+  scale: 1.1;
+}
+html body main .leftArea .topArea form label input:focus::-ms-input-placeholder {
+  scale: 1.1;
+}
+html body main .leftArea .topArea form label input:focus::placeholder {
+  scale: 1.1;
+}
+html body main .leftArea .topArea form .loginBtn {
+  width: 137px;
+  height: 46px;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto 5px;
+}
+html body main .leftArea .topArea form .loginBtn p {
+  font-size: 17px;
+  font-weight: bold;
+}
+html body main .leftArea .topArea form .loginBtn.jp {
+  letter-spacing: -4px;
+}
+html body main .leftArea .topArea form .loginBtn:hover p, html body main .leftArea .topArea form .loginBtn:active p, html body main .leftArea .topArea form .loginBtn.active p {
+  scale: 1.2;
+}
+html body main .leftArea .topArea form .forget {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 11px 0 7px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+html body main .leftArea .topArea form .forget .questionIc {
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid;
+  border-radius: 10px;
+}
+html body main .leftArea .topArea form .forget .questionIc p {
+  font-weight: bold;
+}
+html body main .leftArea .topArea form .forget p {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+html body main .leftArea .topArea form .forget:hover, html body main .leftArea .topArea form .forget:active, html body main .leftArea .topArea form .forget.active {
+  scale: 1.1;
+}
+html body main .leftArea .infoSelect {
+  width: 100%;
+  height: auto;
+  padding: 28px 0;
+}
+html body main .leftArea .infoSelect li {
+  width: 100%;
+  height: 45px;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+  cursor: pointer;
+}
+html body main .leftArea .infoSelect li:last-child {
+  border-width: 1px;
+}
+html body main .leftArea .infoSelect li .arrow_ic {
+  width: 11px;
+  height: 11px;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+html body main .leftArea .infoSelect li p {
+  font-size: 16px;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+html body main .rightArea {
+  width: calc(100% - 160px);
+  min-width: 1300px;
+  margin: 387px 0 0 0;
+  position: relative;
+  z-index: 3;
+}
+html body main .rightArea .mainWrap {
+  width: 100%;
+  height: auto;
+}
+html body main .rightArea .mainWrap .gameMenu {
+  width: auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body main .rightArea .mainWrap .gameMenu li {
+  width: 140px;
+  height: 80px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 30px;
+  cursor: pointer;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic {
+  width: 54px;
+  height: 54px;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.soccer {
+  background-position-x: 0;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.poker {
+  background-position-x: 20%;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.slot {
+  background-position-x: 40%;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.fish {
+  background-position-x: 60%;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.boardcard {
+  background-position-x: 80%;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li .games_ic.lottery {
+  background-position-x: 100%;
+  background-position-y: -10%;
+}
+html body main .rightArea .mainWrap .gameMenu li p {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -4px;
+}
+html body main .rightArea .mainWrap .gameMenu li:hover .games_ic, html body main .rightArea .mainWrap .gameMenu li:active .games_ic, html body main .rightArea .mainWrap .gameMenu li.active .games_ic {
+  background-position-y: 90%;
+}
+html body main .rightArea .mainWrap .daddyMenu {
+  width: auto;
+  height: 80px;
+  border-radius: 0 0 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic {
+  width: 28px;
+  height: 44px;
+  border-radius: 5px;
+  cursor: pointer;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic i {
+  width: 9px;
+  height: 9px;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  rotate: 135deg;
+}
+html body main .rightArea .mainWrap .daddyMenu ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body main .rightArea .mainWrap .daddyMenu ul li {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  cursor: pointer;
+}
+html body main .rightArea .mainWrap .daddyMenu ul li div {
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body main .rightArea .mainWrap .daddyMenu ul li div img {
+  width: 38px;
+  height: 38px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body main .rightArea .mainWrap .daddyMenu ul li p {
+  font-size: 12px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+html body main .rightArea .mainWrap .daddyMenu ul li:hover div, html body main .rightArea .mainWrap .daddyMenu ul li:active div, html body main .rightArea .mainWrap .daddyMenu ul li.active div {
+  scale: 1.2;
+}
+html body main .rightArea .gridWrap {
+  width: 100%;
+  height: auto;
+}
+html body main .rightArea .gridWrap .titleWrap {
+  width: auto;
+  height: 80px;
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body main .rightArea .gridWrap .titleWrap p {
+  font-size: 25px;
+  font-weight: bold;
+}
+html body main .rightArea .gridWrap .searchRow {
+  width: 230px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 5px;
+}
+html body main .rightArea .gridWrap .searchRow i {
+  width: 25px;
+  height: 25px;
+}
+html body main .rightArea .gridWrap .searchRow input {
+  width: 180px;
+  height: 27px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+html body main .rightArea .gridWrap .searchRow input::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+html body main .rightArea .gridWrap .searchRow input::-moz-placeholder {
+  padding-left: 10px;
+}
+html body main .rightArea .gridWrap .searchRow input:-ms-input-placeholder {
+  padding-left: 10px;
+}
+html body main .rightArea .gridWrap .searchRow input::-ms-input-placeholder {
+  padding-left: 10px;
+}
+html body main .rightArea .gridWrap .searchRow input::placeholder {
+  padding-left: 10px;
+}
+html body main .rightArea .gridWrap .procuctWrap {
+  width: 100%;
+  height: auto;
+  padding: 35px 50px;
+}
+html body main .rightArea .gridWrap .procuctWrap ul {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button {
+  width: 158px;
+  height: 58px;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame:hover, html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame:active, html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame.active {
+  scale: 1.1;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.tryOutGame:hover, html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.tryOutGame:active, html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.tryOutGame.active {
+  scale: 1.1;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button p {
+  font-size: 20px;
+  font-weight: bold;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive .maskInnerText {
+  font-size: 21px;
+  font-weight: bold;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li:hover .maskActive, html body main .rightArea .gridWrap .procuctWrap ul li:active .maskActive, html body main .rightArea .gridWrap .procuctWrap ul li.active .maskActive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn {
+  width: 250px;
+  height: 60px;
+  position: relative;
+  display: block;
+  margin: 30px auto;
+}
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn p {
+  font-size: 20px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn .product_arrow_ic {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 48%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 35px;
+}
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn .product_arrow_ic i {
+  width: 12px;
+  height: 12px;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  rotate: 135deg;
+}
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn:hover p, html body main .rightArea .gridWrap .procuctWrap .productAreaBtn:active p, html body main .rightArea .gridWrap .procuctWrap .productAreaBtn.active p {
+  scale: 1.2;
+}
+html body main .rightArea .infoWrap {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 171px 0 0 51px;
+}
+html body main .rightArea .infoWrap .latestNews {
+  font-size: 24px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 130px;
+  left: 135px;
+}
+html body main .rightArea .infoWrap .latestNews i {
+  width: 14px;
+  height: 14px;
+  margin: 2px 15px 0 0;
+}
+html body main .rightArea .infoWrap .latestNews::before {
+  content: "";
+  width: 148px;
+  height: 142px;
+  background: url("../img/turtle_before.png") no-repeat top;
+  position: absolute;
+  top: -29px;
+  left: 740px;
+}
+html body main .rightArea .infoWrap .swiper-banner {
+  width: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-wrapper .swiper-slide img {
+  width: 384px;
+  height: 241px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin: 0 0 0 12px;
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next {
+  width: 20px;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  opacity: 0.5;
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev:hover, html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev:active, html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev.active,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next:hover,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next:active,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next.active {
+  opacity: 1;
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev::after,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next::after {
+  content: "";
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev::before,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border-style: solid;
+  border-width: 5px 5px 0 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev {
+  left: 0;
+  right: unset;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next {
+  left: unset;
+  right: 0;
+}
+html body main .rightArea footer {
+  width: 94%;
+  height: auto;
+  min-height: 450px;
+  padding: 50px;
+  margin: 65px 20px 200px 30px;
+  position: relative;
+  z-index: 8;
+}
+html body main .rightArea footer .serviceWrap {
+  width: auto;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 2;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea {
+  width: auto;
+  height: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc {
+  width: 242px;
+  height: 65px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc p {
+  font-size: 20px;
+  font-weight: bold;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc i {
+  width: 168px;
+  height: 201px;
+  position: absolute;
+  top: -143px;
+  left: 54px;
+  z-index: -1;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc:hover p, html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc:active p, html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc.active p {
+  font-size: 18px;
+}
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc2 {
+  width: 183px;
+  height: 61px;
+  position: absolute;
+  top: 230px;
+  left: 28px;
+}
+html body main .rightArea footer .serviceWrap .serviceRightArea {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+}
+html body main .rightArea footer .serviceWrap .serviceRightArea li {
+  width: 100%;
+  height: auto;
+}
+html body main .rightArea footer .serviceWrap .serviceRightArea li img {
+  width: 100%;
+  height: 27px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body main .rightArea footer .authorized {
+  width: 700px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body main .rightArea footer .authorized .footerIc {
+  width: 305px;
+  height: 191px;
+  position: absolute;
+  bottom: -73px;
+  right: 521px;
+}
+html body main .rightArea footer .authorized p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+html body main .rightArea aside.toTop {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 350px;
+  right: 20px;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+html body main .rightArea aside.toTop p {
+  font-size: 30px;
+  font-weight: bold;
+}
+html body main .rightArea aside.toTop p i {
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 5px 5px 0 0;
+  rotate: -45deg;
+  margin: 0 auto;
+}
+html body main .rightArea aside.language_chg {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  position: fixed;
+  top: 100px;
+  right: 0;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+html body main .rightArea aside.language_chg i {
+  width: 17px;
+  height: 17px;
+  margin: 0 0 0 1px;
+}
+html body main .rightArea aside.language_chg p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 3px 0 0 0;
+}
+html body main .rightArea aside.language_chg:hover, html body main .rightArea aside.language_chg:active, html body main .rightArea aside.language_chg.active {
+  scale: 1.1;
+}
+html body main .rightArea .mainRole {
+  width: 589px;
+  height: 1076px;
+  position: absolute;
+  top: 1040px;
+  right: 0;
+  z-index: 1;
+}

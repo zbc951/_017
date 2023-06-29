@@ -1,0 +1,310 @@
+// 主色系 bg
+$mainBg_1 : #e81414;
+$mainBg_2 : #8b0d12;
+$mianBg_3 : #eaeaea;
+
+// 副色系 bg
+$secondBg_1 :#330000;
+$secondBg_2 :#24e47e;
+$secondBg_3 :#fcff00;
+
+// 透明 bg 
+$thirdBG_1 :#5f121ff1;
+$thirdBG_2 :#dedede;
+// text color 主色
+$mainColor_1 : #6c6c6c;
+$mainColor_2 : #ffffff;
+
+// text color 副色
+$secondColor_1 : #720046;
+
+// icon color // border
+$borderColor_1 :#0cedb0;
+$borderColor_2 :#ff00a8;
+$borderColor_3 :#000000;
+$borderColor_4 :#e81414;
+
+// shadow
+$shadow_1 : #00000096;
+// active 遮罩
+$shadow_2 : #00000096;
+
+// red style use
+$redBg_1 : #4c0410;
+$redBg_2 : #ffffff;
+$redColor_1: #ffffff;
+$redColor_2: #000000;
+$redColor_3: #fcff00;
+$redBorder_1: #fcff00;
+
+// .searchRow 
+@mixin searchRowStyle {
+    background: linear-gradient(to right, #e81414b9 0%, #e81414 100%);
+    border-radius: 5px;
+}
+
+// 產品區按鈕
+@mixin productAreaBtn {
+    background: linear-gradient(to top, #e9e9e9 0%, #f9f9f9 53%, #ffffff 100%);
+    border-radius: 10px;
+    box-shadow: 0 5px 3px 0 $shadow_1 ;
+}
+
+
+//各別路徑
+
+// banner 圖片
+html body .bannerBg {
+    background: url("../img/redStyle/banner_img.jpg") no-repeat;
+    background-size: cover;
+}
+
+//  人物 
+html body .mainRole {
+    background: url("../img/redStyle/footer_role.png") no-repeat right;
+    // background-size: contain;
+}
+
+
+
+html body main .leftArea {
+    background: $thirdBG_1 ;
+}
+
+html body main .leftArea .topArea {
+    background: $redBg_1 ;
+}
+
+html body main .leftArea .topArea form {
+    background: $secondBg_1;
+}
+
+html body main .leftArea .topArea form label input {
+    background: $redBg_2;
+
+    &:focus {
+        background: $thirdBG_2 ;
+    }
+
+    &::placeholder {
+        color: $mainColor_1;
+    }
+}
+
+html body main .leftArea .topArea form .loginBtn {
+    &.ch {
+        background: $secondBg_2 ;
+        color: $mainColor_2;
+    }
+
+    &.jp {
+        background: $secondBg_3 ;
+    }
+}
+
+
+
+html body main .leftArea .topArea form .forget {
+    p {
+        color: $redColor_3;
+    }
+
+    .questionIc {
+        border-color: $redBorder_1;
+    }
+}
+
+
+
+html body main .leftArea .infoSelect li {
+    background: $secondBg_1;
+    border-color: $redColor_1;
+
+    .arrow_ic {
+        border-color: $redColor_1;
+    }
+
+    &:hover,
+    &:active,
+    &.active {
+        background: $secondBg_1;
+
+        .arrow_ic {
+            border-color: $redColor_1 ;
+        }
+
+        p {
+            color: $borderColor_1;
+        }
+    }
+
+    p {
+        color: $mainColor_2;
+    }
+}
+
+
+
+html body main .rightArea .mainWrap .gameMenu {
+    background: $mainBg_1 ;
+
+    li {
+
+        &:hover,
+        &:active,
+        &.active {
+            background: $mainBg_2;
+
+            p {
+                color: $redColor_3;
+            }
+        }
+
+        p {
+            color: $mainColor_2;
+        }
+    }
+}
+
+
+html body main .rightArea .mainWrap .daddyMenu {
+    background: $mainBg_2;
+
+    .dropDown_ic {
+        background: $redBg_2;
+
+        i {
+            border-color: $mainBg_1;
+        }
+    }
+}
+
+
+html body main .rightArea .mainWrap .daddyMenu ul li div {
+    background: $secondBg_1;
+}
+
+html body main .rightArea .mainWrap .daddyMenu ul li p {
+    color: $mainColor_2;
+}
+
+html body main .rightArea .gridWrap .titleWrap {
+    background: $mianBg_3 ;
+}
+
+html body main .rightArea .gridWrap .searchRow {
+    @include searchRowStyle;
+    box-shadow: 0px 0px 5px 0 $shadow_1 ;
+}
+
+html body main .rightArea .gridWrap .procuctWrap {
+    background: $redBg_2;
+    box-shadow: 0px 0px 5px $shadow_1 inset;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive {
+    background: $shadow_2;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button {
+    &.enterGame {
+        background: $secondBg_2;
+
+        p {
+            color: $mainColor_2;
+        }
+    }
+
+    &.tryOutGame {
+        background: $secondBg_3 ;
+    }
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive .maskInnerText {
+    color: $mainColor_2;
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn {
+    @include productAreaBtn;
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn .product_arrow_ic i {
+    border-color: $borderColor_4;
+}
+
+html body main .rightArea .infoWrap .latestNews {
+    color: $mainColor_2;
+}
+
+html body main .rightArea .infoWrap .swiper-banner {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        &::before {
+            border-color: $borderColor_2 $borderColor_2 transparent transparent;
+        }
+    }
+}
+html body main .rightArea footer {
+    background: $redBg_2;
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc {
+    background: $mainBg_1;
+    box-shadow: 0 5px 3px 0 $shadow_1;
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc p {
+    color: $mainColor_2;
+}
+
+html body main .rightArea footer .authorized {
+    background: $mianBg_3 ;
+}
+
+html body main .rightArea footer .authorized p {
+    color: $redColor_2;
+}
+
+html body main .rightArea aside.toTop {
+    background: $mainBg_1;
+}
+
+html body main .rightArea aside.toTop p {
+    color: $redColor_1
+}
+
+html body main .rightArea aside.toTop p i {
+    border-color: $redColor_1;
+}
+
+html body main .rightArea aside.language_chg {
+    background: $mainBg_1;
+}
+
+html body main .rightArea aside.language_chg p {
+    color: $mainColor_2 ;
+}
+
+
+
+
+
+// red style useeeeee
+
+
+html body main .rightArea .mainRole {
+    top: 796px;
+}
+
+html body main .rightArea .mainWrap .gameMenu li:hover .games_ic {
+    background-position-y: -10%;
+}
+
+html body main .rightArea .mainWrap .gameMenu li:active .games_ic {
+    background-position-y: -10%;
+}
+
+html body main .rightArea .mainWrap .gameMenu li.active .games_ic {
+    background-position-y: -10%;
+}

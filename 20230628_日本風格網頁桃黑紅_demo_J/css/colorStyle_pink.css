@@ -1,0 +1,197 @@
+html body .bannerBg {
+  background: url("../img/pinkStyle/banner_img.jpg") no-repeat;
+  background-size: cover;
+}
+
+html body .mainRole {
+  background: url("../img/pinkStyle/footer_role.png") no-repeat right;
+  background-size: contain;
+}
+
+html body main .leftArea {
+  background: rgba(255, 255, 255, 0.8274509804);
+}
+
+html body main .leftArea .topArea {
+  background: #ffffff;
+}
+
+html body main .leftArea .topArea form label input {
+  background: #ffffff;
+}
+html body main .leftArea .topArea form label input:focus {
+  background: #dedede;
+}
+html body main .leftArea .topArea form label input::-webkit-input-placeholder {
+  color: #ff00a8;
+}
+html body main .leftArea .topArea form label input::-moz-placeholder {
+  color: #ff00a8;
+}
+html body main .leftArea .topArea form label input:-ms-input-placeholder {
+  color: #ff00a8;
+}
+html body main .leftArea .topArea form label input::-ms-input-placeholder {
+  color: #ff00a8;
+}
+html body main .leftArea .topArea form label input::placeholder {
+  color: #ff00a8;
+}
+
+html body main .leftArea .topArea form .loginBtn.ch {
+  background: #0cedb0;
+  color: #ffffff;
+}
+html body main .leftArea .topArea form .loginBtn.jp {
+  background: #fcff00;
+}
+
+html body main .leftArea .topArea form .forget p {
+  color: #720046;
+}
+html body main .leftArea .topArea form .forget .questionIc {
+  border-color: #720046;
+}
+
+html body main .leftArea .infoSelect li {
+  background: #720046;
+  border-color: #ffffff;
+}
+html body main .leftArea .infoSelect li .arrow_ic {
+  border-color: #0cedb0;
+}
+html body main .leftArea .infoSelect li:hover, html body main .leftArea .infoSelect li:active, html body main .leftArea .infoSelect li.active {
+  background: #ff00a8;
+}
+html body main .leftArea .infoSelect li:hover .arrow_ic, html body main .leftArea .infoSelect li:active .arrow_ic, html body main .leftArea .infoSelect li.active .arrow_ic {
+  border-color: #ffffff;
+}
+html body main .leftArea .infoSelect li p {
+  color: #ffffff;
+}
+
+html body main .rightArea .mainWrap .gameMenu {
+  background: #ff00a8;
+}
+html body main .rightArea .mainWrap .gameMenu li:hover, html body main .rightArea .mainWrap .gameMenu li:active, html body main .rightArea .mainWrap .gameMenu li.active {
+  background: #ffffff;
+}
+html body main .rightArea .mainWrap .gameMenu li:hover p, html body main .rightArea .mainWrap .gameMenu li:active p, html body main .rightArea .mainWrap .gameMenu li.active p {
+  color: #ff00a8;
+}
+html body main .rightArea .mainWrap .gameMenu li p {
+  color: #ffffff;
+}
+
+html body main .rightArea .mainWrap .daddyMenu {
+  background: #ffffff;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic {
+  background: #720046;
+}
+html body main .rightArea .mainWrap .daddyMenu .dropDown_ic i {
+  border-color: #ffffff;
+}
+
+html body main .rightArea .mainWrap .daddyMenu ul li div {
+  background: #720046;
+}
+
+html body main .rightArea .mainWrap .daddyMenu ul li p {
+  color: #720046;
+}
+
+html body main .rightArea .gridWrap .titleWrap {
+  background: #eaeaea;
+}
+
+html body main .rightArea .gridWrap .searchRow {
+  background: -webkit-gradient(linear, left top, right top, from(#ff00d2), to(#fcff24));
+  background: linear-gradient(to right, #ff00d2 0%, #fcff24 100%);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5882352941) inset;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5882352941) inset;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive {
+  background: rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame {
+  background: #0cedb0;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.enterGame p {
+  color: #ffffff;
+}
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive button.tryOutGame {
+  background: #fcff00;
+}
+
+html body main .rightArea .gridWrap .procuctWrap ul li .maskActive .maskInnerText {
+  color: #ffffff;
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e9e9e9), color-stop(53%, #f9f9f9), to(#ffffff));
+  background: linear-gradient(to top, #e9e9e9 0%, #f9f9f9 53%, #ffffff 100%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea .gridWrap .procuctWrap .productAreaBtn .product_arrow_ic i {
+  border-color: #ff00a8;
+}
+
+html body main .rightArea .infoWrap .latestNews {
+  color: #ffffff;
+}
+
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-prev::before,
+html body main .rightArea .infoWrap .swiper-banner .swiper-button-next::before {
+  border-color: #ff00a8 #ff00a8 transparent transparent;
+}
+
+html body main .rightArea footer {
+  background: #ffffff;
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc {
+  background: #ff00a8;
+  -webkit-box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+          box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.5882352941);
+}
+
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc p {
+  color: #ffffff;
+}
+
+html body main .rightArea footer .authorized {
+  background: #eaeaea;
+}
+
+html body main .rightArea footer .authorized p {
+  color: #ff00a8;
+}
+
+html body main .rightArea aside.toTop {
+  background: #fcff00;
+}
+
+html body main .rightArea aside.toTop p i {
+  border-color: #000000;
+}
+
+html body main .rightArea aside.language_chg {
+  background: #ff00a8;
+}
+
+html body main .rightArea aside.language_chg p {
+  color: #ffffff;
+}

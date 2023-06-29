@@ -1,0 +1,56 @@
+// 共用背景
+html body main {
+    background: url("../img/public_bg.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+// ? icon
+main .leftArea .topArea form .forget i {
+    background: url("../img/qutions_icon.png") no-repeat center;
+    background-size: contain;
+}
+
+// 遊戲種類組圖
+html body main .rightArea .mainWrap .gameMenu li .games_ic {
+    background: url("../img/games_icon.png") no-repeat top;
+    background-size: 600%;
+}
+
+
+
+
+// 最新資訊 icon
+html body main .rightArea .infoWrap .latestNews i {
+    background: url("../img/latestNews_icon.png") no-repeat center;
+    background-size: contain;
+}
+
+// 粉紅貓
+html body main .rightArea footer .serviceWrap .serviceLeftArea .serviceIc i {
+    background: url("../img/footer_pimk_cat.png") no-repeat center;
+    background-size: contain;
+}
+
+// footer logo
+html body main .rightArea .serviceWrap .serviceIc2 {
+    background: url("../img/footer_logo.png") no-repeat center;
+    background-size: contain;
+}
+
+// search ic 
+html body main .rightArea .gridWrap .searchRow i {
+    background: url("../img/search_ic.png")no-repeat center;
+    background-size: contain;
+}
+
+// 黑貓
+html body main .rightArea footer .authorized .footerIc {
+    background: url("../img/footer_black_cat.png") no-repeat center;
+    background-size: contain;
+}
+
+// 語言切換
+html body .language_chg i {
+    background: url("../img/language_icon.png") no-repeat center;
+    background-size: contain;
+}

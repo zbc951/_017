@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <!-- css引入 -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- color style 引入 -->
+    <link rel="stylesheet" href="./css/colorStyle_red.css" class="colorSystem">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- jquery js -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- js引入 -->
+    <script src="./js/javascript.js"></script>
+</head>
+
+<body>
+    <!-- main -->
+    <main>
+        <!-- 左區域 -->
+        <div class="leftArea">
+            <!-- 上半區域 -->
+            <div class="topArea">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <!-- 帳密 -->
+                <form action="">
+                    <label for="">
+                        <input type="text" placeholder="アカウント">
+                    </label>
+                    <label for="">
+                        <input type="password" placeholder="パスワード">
+                    </label>
+                    <button class="loginBtn ch">
+                        <p>登録</p>
+                    </button>
+                    <button class="loginBtn jp">
+                        <p>ログインする</p>
+                    </button>
+                    <div class="forget">
+                        <div class="questionIc">
+                            <p>?</p>
+                        </div>
+                        <p>パスワードを忘れる ?</p>
+                    </div>
+                </form>
+            </div>
+            <!-- 下半區域 -->
+            <ul class="infoSelect">
+                <li>
+                    <p>トップページ</p>
+                    <i class="arrow_ic"></i>
+                </li>
+                <li class="active">
+                    <p>よくあるQ&A</p>
+                    <i class="arrow_ic"></i>
+                </li>
+                <li>
+                    <p>必勝法・攻略法</p>
+                    <i class="arrow_ic"></i>
+                </li>
+                <li>
+                    <p>公式ツイッター</p>
+                    <i class="arrow_ic"></i>
+                </li>
+                <li>
+                    <p>カジノゲーム</p>
+                    <i class="arrow_ic"></i>
+                </li>
+                <li>
+                    <p>サイトマップ</p>
+                    <i class="arrow_ic"></i>
+                </li>
+            </ul>
+        </div>
+        <!-- 右區域 -->
+        <div class="rightArea">
+            <!-- game+廠商 -->
+            <div class="mainWrap">
+                <!-- game -->
+                <ul class="gameMenu">
+                    <li class="active">
+                        <i class="games_ic soccer"></i>
+                        <p>スポーツ</p>
+                    </li>
+                    <li>
+                        <i class="games_ic poker"></i>
+                        <p>ライブカジノ</p>
+                    </li>
+                    <li>
+                        <i class="games_ic slot"></i>
+                        <p>スロットマシン </p>
+                    </li>
+                    <li>
+                        <i class="games_ic fish"></i>
+                        <p>釣り機</p>
+                    </li>
+                    <li>
+                        <i class="games_ic boardcard"></i>
+                        <p>ボードゲーム</p>
+                    </li>
+                    <li>
+                        <i class="games_ic lottery"></i>
+                        <p>たからくじ</p>
+                    </li>
+                </ul>
+                <!-- 廠商 -->
+                <div class="daddyMenu">
+                    <div class="dropDown_ic">
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_bng.png" alt="">
+                            </div>
+                            <p>BNG</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_pls.png" alt="">
+                            </div>
+                            <p>PLS</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_playGo.png" alt="">
+                            </div>
+                            <p>PLAYGO</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_elysium.png" alt="">
+                            </div>
+                            <p>ELYSIUM</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_BG.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_ELK.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_4TH.png" alt="">
+                            </div>
+                            <p>4THEPLAYER</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_MICRO.png" alt="">
+                            </div>
+                            <p>MICRO</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_bng.png" alt="">
+                            </div>
+                            <p>Blueprint</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_pls.png" alt="">
+                            </div>
+                            <p>PLS</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_playGo.png" alt="">
+                            </div>
+                            <p>PLAYGO</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_elysium.png" alt="">
+                            </div>
+                            <p>ELYSIUM</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_BG.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_ELK.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_4TH.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_MICRO.png" alt="">
+                            </div>
+                            <p>ROOMING</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_bng.png" alt="">
+                            </div>
+                            <p>BNG</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_pls.png" alt="">
+                            </div>
+                            <p>PLS</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/daddy_playGo.png" alt="">
+                            </div>
+                            <p>PLAYGO</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- grid -->
+            <div class="gridWrap">
+                <!-- 標題 -->
+                <div class="titleWrap">
+                    <p>スロットマシン</p>
+                    <label class="searchRow" for="">
+                        <i></i>
+                        <input type="text" placeholder="搜索">
+                    </label>
+                </div>
+                <!-- 產品 -->
+                <div class="procuctWrap">
+                    <!-- item -->
+                    <ul>
+                        <li>
+                            <img src="./img/wild_warros.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/solar_temple.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/sky-gems.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/secret_of_n.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/buffalo_power_meg.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/draculas_family.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/40Joker.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/sky_way.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/wild_warros.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/luckyX.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/applle2.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/8uropean.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/wild_warros.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/solar_temple.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/sky-gems.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/secret_of_n.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/buffalo_power_meg.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./img/draculas_family.png" alt="">
+                            <div class="maskActive">
+                                <button class="enterGame">
+                                    <p>
+                                        ゲームに入る
+                                    </p>
+                                </button>
+                                <button class="tryOutGame">
+                                    <p>
+                                        無料お試し
+                                    </p>
+                                </button>
+                                <p class="maskInnerText">Wild warros</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 按鈕 -->
+                    <button class="productAreaBtn">
+                        <p> 続きを見る</p>
+                        <div class="product_arrow_ic">
+                            <i></i>
+                            <i></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!-- 輪播+最新資訊 -->
+            <div class="infoWrap">
+                <!-- 最新資訊 -->
+                <p class="latestNews">
+                    <i></i>
+                    最新のお知らせ
+                </p>
+                <!-- 輪播 -->
+                <section class="swiper-banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/swiper_vip.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/swiper_money.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/swiper_rule.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </section>
+            </div>
+            <!-- footer -->
+            <footer>
+                <div class="serviceWrap">
+                    <div class="serviceLeftArea">
+                        <button class="serviceIc">
+                            <p>
+                                <i></i>
+                                24時間顧客サービス
+                            </p>
+                        </button>
+                        <i class="serviceIc2"></i>
+                    </div>
+                    <!-- 銀行 -->
+                    <ul class="serviceRightArea">
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer_bank_1.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="authorized">
+                    <i class="footerIc"></i>
+                    <p>Copyright © 2025 ネットカジノ.jp All Rights Reserved.</p>
+                </div>
+            </footer>
+            <!-- TO TOP -->
+            <aside class="toTop">
+                <p>
+                    <i></i>
+                    TOP
+                </p>
+            </aside>
+            <!-- 語言切換 -->
+            <aside class="language_chg">
+                <i></i>
+                <p>JP</p>
+            </aside>
+            <!-- 人物-->
+            <div class="mainRole"></div>
+        </div>
+    </main>
+    <!-- banner 圖片-->
+    <div class="bannerBg"></div>
+    <!-- 控制面板 -->
+    <aside class="styleControl">
+        <button class="controlBtn">
+            <p>Control Panel</p>
+        </button>
+        <ul class="colorBtn">
+            <li>
+                <button class="pinkStyle">
+                    <p>click</p>
+                </button>
+            </li>
+            <li>
+                <button class="blackStyle">
+                    <p>click</p>
+                </button>
+            </li>
+            <li>
+                <button class="redStyle">
+                    <p>click</p>
+                </button>
+            </li>
+        </ul>
+    </aside>
+</body>
+
+</html>
